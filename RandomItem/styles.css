@@ -1,0 +1,39 @@
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-image: url('images/background.png');
+}
+
+.container {
+  text-align: center;
+}
+
+.item-display img {
+  width: 600px;
+  height: 600px;
+  border: 1px solid #ccc;
+  padding: 20px;
+  background-color: rgba(240, 248, 255, 0.521);
+  border-radius: 25px;
+}
+
+.notification {
+  font-size: 100px;
+  color: rgb(255, 255, 255);
+  margin-top: 10px;
+  background-color: rgba(0, 255, 208, 0.905);
+  border-radius: 25px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 25px;
+  background-color: aqua;
+}
+  
